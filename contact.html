@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Us - SparkForge</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="nav-left">
+        <a href="home.html" class="logo">
+          <img src="assets/sparkforge-logo.svg" class="logo-img" alt="SparkForge logo"> SparkForge
+        </a>
+        <ul class="nav-links">
+          <li><a href="hackathons.html">Hackathons</a></li>
+          <li><a href="workshops.html">Workshops</a></li>
+          <li><a href="themes.html">Themes</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="about.html" class="nav-item">About Us</a>
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="contact-container">
+
+    <div class="contact-hero">
+      <div>
+        <h1>Contact SparkForge</h1>
+        <p class="contact-note">Have a question or feedback about the platform? Send us a message and we'll get back to
+          you.</p>
+      </div>
+      <div style="margin-left:auto; text-align:right;">
+        <p class="contact-note">Prefer email? <strong>hello@sparkforge.example</strong></p>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Full name" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="full">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Brief subject" required>
+        </div>
+
+        <div class="full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+        </div>
+
+        <div class="full contact-actions">
+          <a href="home.html" class="btn btn-outline">Cancel</a>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 SparkForge. Built for innovators.</p>
+  </footer>
+
+</body>
+
+</html>
